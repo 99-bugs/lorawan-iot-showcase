@@ -10,6 +10,7 @@ Rotation sensor | 11 | 1 byte Rotation (0-255)
 Airquality sensor | 12 | 2 bytes, 10 bit (0-1024) 
 Loudness sensor | 15 | 2 bytes, 10 bit (0-1024)
 Pir sensor | 16 | 1 byte, motions per minute
+Push button | 17 | 1 byte, 0x01 == event
 RFID | 25 | 12 bytes: Id in ASCII |
 
 ## Libraries Required
