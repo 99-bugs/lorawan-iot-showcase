@@ -13,3 +13,11 @@ RFID | 25 | 12 bytes: Id in ASCII |
 ### RFID
 
 * [https://github.com/SodaqMoja/Sodaq_RN2483.git](https://github.com/SodaqMoja/Sodaq_RN2483.git)
+
+### Ultrasonic Ranger
+
+```shell
+cd ~/Arduino/libraries
+git clone https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger.git
+git checkout v1.0.1
+```
