@@ -14,6 +14,7 @@ Push button | 17 | 1 byte, 0x01 == event
 RFID | 25 | 12 bytes: Id in ASCII |
 Ultrasonic Distance | 26 | 2 bytes: 0 - 400 cm |
 SPDT Switch | 27 | 1 byte: 0x00 or 0xFF |
+Tilt sensor | 28 | 1 byte: 0x00 or 0xFF |
 
 ## Libraries Required
 
