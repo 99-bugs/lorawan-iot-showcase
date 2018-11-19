@@ -17,6 +17,7 @@ SPDT Switch | 27 | 1 byte: 0x00 or 0xFF |
 Tilt sensor | 28 | 1 byte: 0x00 or 0xFF |
 Temperature and Humidity Pro sensor | 29 | 4 bytes: 2 bytes Temperature, 2 bytes humidity |
 Gas sensor | 30 | 2 bytes gas density (value between 0 and 1000; divide by 1000 to get 0.0 to 1.0) |
+Magnetic Reed sensor | 31 | 1 byte: 0x00 or 0xFF |
 
 ## Libraries Required
 
