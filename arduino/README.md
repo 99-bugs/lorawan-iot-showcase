@@ -39,3 +39,11 @@ git checkout v1.0.1
 cd ~/Arduino/libraries
 git clone https://github.com/BioBoost/Grove_Temperature_And_Humidity_Sensor.git
 ```
+
+### TPH Sensor
+
+```shell
+cd ~/Arduino/libraries
+https://github.com/adafruit/Adafruit_BME280_Library.git
+git clone https://github.com/adafruit/Adafruit_Sensor.git
+```
