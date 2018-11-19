@@ -15,7 +15,7 @@ RFID | 25 | 12 bytes: Id in ASCII |
 Ultrasonic Distance | 26 | 2 bytes: 0 - 400 cm |
 SPDT Switch | 27 | 1 byte: 0x00 or 0xFF |
 Tilt sensor | 28 | 1 byte: 0x00 or 0xFF |
-Temperature and Humidity Pro sensor | 29 | ...... |
+Temperature and Humidity Pro sensor | 29 | 4 bytes: 2 bytes Temperature, 2 bytes humidity |
 
 ## Libraries Required
 
