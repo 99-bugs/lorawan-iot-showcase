@@ -1,7 +1,7 @@
 #include <Sodaq_RN2483.h>
 #include "DHT.h"
 
-#define DHTPIN 4     // what pin we're connected to
+#define DHTPIN 15     // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22  (AM2302 - Pro)
 
 #define debugSerial SerialUSB
