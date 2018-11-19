@@ -15,6 +15,7 @@ RFID | 25 | 12 bytes: Id in ASCII |
 Ultrasonic Distance | 26 | 2 bytes: 0 - 400 cm |
 SPDT Switch | 27 | 1 byte: 0x00 or 0xFF |
 Tilt sensor | 28 | 1 byte: 0x00 or 0xFF |
+Temperature and Humidity Pro sensor | 29 | ...... |
 
 ## Libraries Required
 
@@ -28,4 +29,11 @@ Tilt sensor | 28 | 1 byte: 0x00 or 0xFF |
 cd ~/Arduino/libraries
 git clone https://github.com/Seeed-Studio/Grove_Ultrasonic_Ranger.git
 git checkout v1.0.1
+```
+
+### Temperature and Humidity Pro
+
+```shell
+cd ~/Arduino/libraries
+git clone https://github.com/BioBoost/Grove_Temperature_And_Humidity_Sensor.git
 ```
