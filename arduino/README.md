@@ -13,6 +13,7 @@ Pir sensor | 16 | 1 byte, motions per minute
 Push button | 17 | 1 byte, 0x01 == event
 RFID | 25 | 12 bytes: Id in ASCII |
 Ultrasonic Distance | 26 | 2 bytes: 0 - 400 cm |
+Sunlight sensor | 21 | 6 bytes: 2 byte visual light, 2 bytes ir light, 2 bytes UV index / 100
 SPDT Switch | 27 | 1 byte: 0x00 or 0xFF |
 Tilt sensor | 28 | 1 byte: 0x00 or 0xFF |
 Temperature and Humidity Pro sensor | 29 | 4 bytes: 2 bytes Temperature, 2 bytes humidity |
